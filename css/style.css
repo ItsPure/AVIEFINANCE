@@ -18709,6 +18709,17 @@ h6, .h6 {
   font-size: 14px;
 }
 
+.navbar .navbar-nav .nav-item .nav-link.btn-clientportal {
+  background-color: #1998ff;
+  border-color: #1998ff;
+  transition: all 300ms;
+}
+
+.navbar .navbar-nav .nav-item .nav-link.btn-clientportal:hover {
+  background-color: #0085f2;
+  border-color: #0085f2;
+}
+
 @media (max-width: 991px) {
   .navbar .navbar-nav .nav-item .nav-link {
     display: block;
@@ -18827,7 +18838,6 @@ html {
 
 .home {
   background: url("../images/banner-bg.svg");
-  background-repeat-y: no-repeat;
   background-position: 0 -50px;
   padding-top: 103px;
 }
