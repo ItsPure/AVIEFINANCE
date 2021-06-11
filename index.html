@@ -4,7 +4,7 @@
 		<!-- Required meta tags --> 
 		<meta charset="utf-8">
 		<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-		<title>AVIE-FINANCE landing page</title>
+		<title>Avie Finance - Your Crypto Savings</title>
 		<link rel="stylesheet" href="vendors/mdi/css/materialdesignicons.min.css">
 		<link rel="stylesheet" href="vendors/owl.carousel/css/owl.carousel.css">
 		<link rel="stylesheet" href="vendors/owl.carousel/css/owl.theme.default.min.css">
@@ -12,6 +12,8 @@
 		<link rel="stylesheet" href="vendors/jquery-flipster/css/jquery.flipster.css">
 		<link rel="stylesheet" href="css/style.css">
 		<link rel="shortcut icon" href="images/logo-white-square.png" />
+
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
 	</head>
 	<body data-spy="scroll" data-target=".navbar" data-offset="50">
 		<div id="mobile-menu-overlay"></div>
@@ -28,10 +30,10 @@
 					</div>
 					<ul class="navbar-nav ml-auto align-items-center">
 						<li class="nav-item">
-							<a class="nav-link" href="#plans">Docs</a>
+							<a class="nav-link" href="https://docs.avie.finance/">Docs</a>
 						</li>
 						<li class="nav-item">
-							<a class="nav-link btn btn-success btn-clientportal" href="#contact">Client Portal</a>
+							<a class="nav-link btn btn-success btn-clientportal" data-toggle="modal" data-target="#dashboard-unfinished-model" href="#">Client Portal</a>
 						</li>
 					</ul>
 				</div>
@@ -47,7 +49,7 @@
 									<div data-aos="zoom-in-up">
 										<div class="banner-title">
 												<h3 class="font-weight-medium">
-													Forget Banks.<br>
+													Forget banks.<br>
 													Say hello to Avie.
 											</h3>
 										</div>
@@ -55,7 +57,7 @@
 											Your new savings account powered by Crypto.<br>
 											Avie helps you save more and earn up to 14% APY on any cryptocurrency. 
 										</p>
-										<a href="#" class="btn btn-secondary mt-3">Start Saving Today!</a>
+										<!--<a href="#" class="btn btn-secondary mt-3">Start Saving Today!</a>-->
 									</div>
 									<div class="mt-5 mt-lg-0">
 										<img src="images/group.png" alt="marsmello" class="img-fluid" data-aos="zoom-in-up">
@@ -158,14 +160,15 @@
 				<div class="container">
 					<div class="row">
 						<div class="col-sm-6" data-aos="fade-up">
-							<h5 class="text-dark">Our work process</h5>
-							<h3 class="font-weight-medium text-dark">We improve with your help!</h3>
-							<!--<h5 class="text-dark mb-3"></h5> !-->
+							<!--<h5 class="text-dark"></h5>-->
+							<h3 class="font-weight-medium text-dark title">Introducing AVIE Token</h3>
+							<!--<h5 class="text-dark mb-3"></h5> -->
 							<p class="font-weight-medium mb-4">
-								Avie is committed to improving your experience.<br>
-								That's why it's important for you to let us know what you want to see!
+								Avie utilizes the power of our own token to help you earn and save more.<br>
+								Increase your interest earning up to 16% and take advantage of the many
+								benefits that come with holding AVIE Token.
 								<br><br>
-								Got an idea for us? Let us know!
+								Read through our docs to learn more!
 							</p>
 
 							<!--
@@ -183,7 +186,7 @@
 							</div>-->
 						</div>
 						<div class="col-sm-6 text-right" data-aos="flip-left" data-aos-easing="ease-out-cubic" data-aos-duration="2000">
-							<img src="images/idea.png" alt="idea" class="img-fluid">
+							<img src="images/coin.png" alt="idea" class="img-fluid">
 						</div>
 					</div>
 				</div>
@@ -362,44 +365,19 @@
 									Social Share
 								</h6>
 								<div class="d-flex">
-									<a href="#"><i class="mdi mdi-github-circle"></i></a>
-									<a href="#"><i class="mdi mdi-facebook-box"></i></a>
 									<a href="#"><i class="mdi mdi-twitter"></i></a>
-									<a href="https://discord.gg/gtqBctbHYf"><i class="mdi mdi-discord"></i></a>
+									<a href="https://discord.gg/rUpVYGdMKQ"><i class="mdi mdi-discord"></i></a>
 								</div>
 							</div>
 						</div>
-						<div class="col-sm-6">
-							<div class="row">
-								<div class="col-sm-4">
-									<h6 class="footer-title">Social Share</h6>
-									<ul class="list-footer">
-										<li><a href="#" class="footer-link">Home</a></li>
-										<li><a href="#" class="footer-link">About</a></li>
-										<li><a href="#" class="footer-link">Services</a></li>
-										<li><a href="#" class="footer-link">Portfolio</a></li>
-										<li><a href="#" class="footer-link">Contact</a></li>
-									</ul>
-								</div>
-								<div class="col-sm-4">
-									<h6 class="footer-title">Product</h6>
-									<ul class="list-footer">
-										<li><a href="#" class="footer-link">Digital Marketing</a></li>
-										<li><a href="#" class="footer-link">Web Development</a></li>
-										<li><a href="#" class="footer-link">App Development</a></li>
-										<li><a href="#" class="footer-link">Design</a></li>
-									</ul>
-								</div>
-								<div class="col-sm-4">
-									<h6 class="footer-title">Company</h6>
-									<ul class="list-footer">
-										<li><a href="#" class="footer-link">Partners</a></li>
-										<li><a href="#" class="footer-link">Investors</a></li>
-										<li><a href="#" class="footer-link">Partners</a></li>
-										<li><a href="#" class="footer-link">FAQ</a></li>
-									</ul>
-								</div>
-							</div>
+						<div class="col-sm-6 company">
+							<h6 class="footer-title">Company</h6>
+							<ul class="list-footer">
+								<li><a href="https://docs.avie.finance" class="footer-link">Docs</a></li>
+								<li><a data-toggle="modal" data-target="#dashboard-unfinished-model" href="#" class="footer-link">Dashboard</a></li>
+								<li><a href="https://discord.gg/rUpVYGdMKQ" class="footer-link">Community</a></li>
+								<li><a href="https://docs.avie.finance/" class="footer-link">FAQ</a></li>
+							</ul>
 						</div>
 					</div>
 				</div>
@@ -413,15 +391,41 @@
 						</div>
 						<div>
 							<div class="d-flex">
-								<a href="#" class="text-small text-white mx-2 footer-link">Privacy Policy </a>          
-								<a href="#" class="text-small text-white mx-2 footer-link">Customer Support </a>
-								<a href="#" class="text-small text-white mx-2 footer-link">Careers </a>
+								<a href="/privacy-policy" class="text-small text-white mx-2 footer-link">Privacy Policy </a>          
+								<a href="https://discord.gg/rUpVYGdMKQ" class="text-small text-white mx-2 footer-link">Client Support </a>
+								<a href="https://discord.gg/rUpVYGdMKQ" class="text-small text-white mx-2 footer-link">Careers </a>
 							</div>
 						</div>
 					</div>
 				</div>
 			</div>
 		</footer>
+
+
+		<!-- Dashboard error not done -->
+		<div class="modal" tabindex="-1" role="dialog" id="dashboard-unfinished-model">
+			<div class="modal-dialog" role="document">
+				<div class="modal-content">
+					<div class="modal-header">
+						<h5 class="modal-title">Not Yet!</h5>
+						<button type="button" class="close" data-dismiss="modal" aria-label="Close">
+							<span aria-hidden="true">&times;</span>
+						</button>
+					</div>
+					<div class="modal-body">
+						We're releasing our client portal and dashboard soon.<br>
+						Stay up to date with us on:<br>
+					</div>
+					<div class="modal-footer">
+						<div class="d-flex" style="font-size: 40px; width: 100%;">
+							<a href="#"><i class="mdi mdi-twitter" style="margin: auto;"></i></a>
+							<a href="https://discord.gg/rUpVYGdMKQ"><i class="mdi mdi-discord" style="margin: auto;"></i></a>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+		
 		<script src="vendors/base/vendor.bundle.base.js"></script>
 		<script src="vendors/owl.carousel/js/owl.carousel.js"></script>
 		<script src="vendors/aos/js/aos.js"></script>

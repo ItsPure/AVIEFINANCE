@@ -18630,6 +18630,11 @@ h6, .h6 {
   color: #e5e5e5;
 }
 
+.footer .company {
+  float: right;
+  text-align: right;
+}
+
 .navbar {
   width: 100%;
   padding: 1.875rem 1rem;
@@ -18862,7 +18867,7 @@ html {
 }
 
 .main-banner .banner-title {
-  width: 56%;
+  width: 60%;
 }
 
 @media (max-width: 991px) {
@@ -18911,6 +18916,10 @@ section {
 .tick-icon {
   width: 20px;
   height: 20px;
+}
+
+.our-process .title {
+  margin-top: 100px;
 }
 
 .testimonial {
