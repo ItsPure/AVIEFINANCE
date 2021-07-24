@@ -142,5 +142,3 @@
 		}
 		runbP();
 		//blog post
-
-	});
