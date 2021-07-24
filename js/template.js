@@ -142,3 +142,6 @@
 		}
 		runbP();
 		//blog post
+
+	});
+})(jQuery);
