@@ -18579,11 +18579,11 @@ h6, .h6 {
 }
 
 .footer .footer-top {
-  padding: 74px 0;
+  padding: 25px 0;
 }
 
 .footer .footer-top .footer-title {
-  font-size: 1rem;
+  font-size: 1.2rem;
   font-weight: 500;
   margin-bottom: .875rem;
 }
@@ -18609,7 +18609,7 @@ h6, .h6 {
 
 .footer .footer-bottom {
   background: rgba(255, 255, 255, 0.07);
-  padding: 30px 0;
+  padding: 20px 0;
   border-top: 1px solid rgba(151, 151, 151, 0.07);
 }
 
